@@ -11,9 +11,6 @@ HyperOS Tweaks for non-rooted devices.
 HyperTweaks is an ADB reliant batch script
 that optimizes various settings.
 
-Tested on HyperOS 3.
-Run at your own risk on HyperOS 1 & 2
-
 > [!WARNING]
 > Only tested on HyperOS 3.
 > Run at your own risk on HyperOS 1 & 2,
