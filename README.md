@@ -13,7 +13,7 @@ that optimizes various settings.
 
 > [!CAUTION]
 > - Only tested on HyperOS 3.
-> - Run at your own risk on HyperOS 1 & 2.
+> - Make sure you know how to access recovery to factory reset.
 > - I'm not responsible for bootloops.
 
 # Tutorial
