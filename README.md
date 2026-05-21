@@ -26,4 +26,5 @@ Press on the green Code button then on Download ZIP, Download [ADB](https://dl.g
 - Deletes various xiaomi bloatware confirmed by multiple sources
 - Enables a custom DNS (dns.adguard-dns.com)
 - Optionally raises the GPU / CPU Level for better animations.
-Unfortunately due to not having root, HyperOS cannot be optimized extensively.
+
+Unfortunately due to not having root, HyperOS cannot extensively be optimized.
