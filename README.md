@@ -17,6 +17,9 @@ that optimizes various settings.
 > - I'm not responsible for bootloops.
 
 # Tutorial
+> [!WARNING]
+> Make sure USB Debugging is on, or else itll error.
+
 Press on the green Code button then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to optimize your phone settings!
 
 # What it does in detail
