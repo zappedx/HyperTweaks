@@ -74,6 +74,9 @@ adb shell settings put global tether_offload_disabled 0
 adb shell settings put global debug.hwui.renderer skiagl
 adb shell service call SurfaceFlinger 1008 i32 1
 
+::memory extension
+adb shell settings put global ram_expand_size 0
+
 ::remove bloat
 for %%A in (
     com.miui.miservice
