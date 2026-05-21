@@ -14,9 +14,9 @@ that optimizes various settings.
 Tested on HyperOS 3.
 Run at your own risk on HyperOS 1 & 2
 
-NOTICE:
-Unrooted system tweaks do not even come close to the tweaks you can do with root.
-do not expect a big difference, its mainly just debloating.
+[!WARNING]
+Tested on HyperOS 3.
+Run at your own risk on HyperOS 1 & 2,
 
 # Tutorial
 Press on the green Code button then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to optimize your phone settings!
