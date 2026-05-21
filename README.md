@@ -18,3 +18,9 @@ that optimizes various settings.
 
 # Tutorial
 Press on the green Code button then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to optimize your phone settings!
+
+# What it does in detail
+- Deletes various xiaomi bloatware confirmed by multiple sources
+- Enables a custom DNS (dns.adguard-dns.com)
+- Optionally raises the GPU / CPU Level for better animations.
+Unfortunately due to not having root, HyperOS cannot be optimized extensively.
