@@ -45,9 +45,9 @@ goto main
 :main
 
 ::change cpu/gpu level
-echo %ESC%[97m[LOG] Enable better animations, advanced textures (toggle in settings), at the cost of performance?%ESC%[0m
+echo %ESC%[97m[Q] Enable better animations, advanced textures (toggle in settings), at the cost of performance?%ESC%[0m
 choice /c YN /n /m "[Y/N]: "
-    if errorlevel 2 goto main2
+if errorlevel 2 goto main2
 
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.cpulevel 6\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.gpulevel 6\" s16 \"/storage/emulated/0/log.txt\" i32 600"
@@ -59,9 +59,18 @@ adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.background_blur_status_default true\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"settings\" i32 1 s16 \"put secure linkage_state 1\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.add_blurnoise_supported true\" s16 \"/storage/emulated/0/log.txt\" i32 600"
+goto main3
 
 :main2
 
+echo %ESC%[97m[Q] Downgrade visual experience for better performance?%ESC%[0m
+choice /c YN /n /m "[Y/N]: "
+if errorlevel 2 goto main3
+
+adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.cpulevel 3\" s16 \"/storage/emulated/0/log.txt\" i32 600"
+adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.gpulevel 3\" s16 \"/storage/emulated/0/log.txt\" i32 600"
+
+:main3
 ::anim speed
 adb shell settings put global window_animation_scale 0.5
 adb shell settings put global transition_animation_scale 0.5
