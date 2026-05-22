@@ -8,7 +8,7 @@ HyperOS Tweaks for non-rooted devices.
 </div>
 
 # About
-HyperTweaks is an ADB reliant batch script
+HyperTweaks is an extremely simple ADB reliant batch script
 that optimizes various settings.
 
 > [!CAUTION]
