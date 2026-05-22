@@ -59,6 +59,7 @@ adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.background_blur_status_default true\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"settings\" i32 1 s16 \"put secure linkage_state 1\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.add_blurnoise_supported true\" s16 \"/storage/emulated/0/log.txt\" i32 600"
+echo %ESC%[97m[LOG] Set CPU & GPU Level to 6.%ESC%[0m
 goto main3
 
 :main2
@@ -69,22 +70,27 @@ if errorlevel 2 goto main3
 
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.cpulevel 3\" s16 \"/storage/emulated/0/log.txt\" i32 600"
 adb shell "service call miui.mqsas.IMQSNative 21 i32 1 s16 \"setprop\" i32 1 s16 \"persist.sys.computility.gpulevel 3\" s16 \"/storage/emulated/0/log.txt\" i32 600"
+echo %ESC%[97m[LOG] Set CPU & GPU Level to 3.%ESC%[0m
 
 :main3
 ::anim speed
 adb shell settings put global window_animation_scale 0.5
 adb shell settings put global transition_animation_scale 0.5
 adb shell settings put global animator_duration_scale 0.5
+echo %ESC%[97m[LOG] Changed animation speed to 0.5%ESC%[0m
 
 ::hwaccel
 adb shell settings put global tether_offload_disabled 0
+echo %ESC%[97m[LOG] Enabled tethering hardware acceleration%ESC%[0m
 
 ::hwoverlay
 adb shell settings put global debug.hwui.renderer skiagl
 adb shell service call SurfaceFlinger 1008 i32 1
+echo %ESC%[97m[LOG] Disabled HW Overlay%ESC%[0m
 
 ::memory extension
 adb shell settings put global ram_expand_size 0
+echo %ESC%[97m[LOG] Disabled memory extension%ESC%[0m
 
 ::remove bloat
 for %%A in (
@@ -208,13 +214,15 @@ for %%A in (
 ) do (
     adb shell pm uninstall --user 0 %%A
 )
+echo %ESC%[97m[LOG] Removed bloatware%ESC%[0m
 
 ::disable ads
 adb shell settings put global ads_user_data_enabled 0
 adb shell settings put global ad_id_status 2
 adb shell settings put global private_dns_mode hostname
 adb shell settings put global private_dns_specifier dns.adguard-dns.com
-
+echo %ESC%[97m[LOG] Disabled ads.%ESC%[0m
+echo.
 echo %ESC%[96m* %ESC%[96;4mFinished.%ESC%[0m
 echo.
 echo %ESC%[97mReboot your phone!!!%ESC%[0m
