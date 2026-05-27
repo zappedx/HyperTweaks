@@ -5,7 +5,7 @@
 # HyperTweaks
 Root olmadan cihazlar için HyperOS optimizasyonları.
 
-[English]([/readme.md](https://github.com/zaaaappp/HyperTweaks)) - [German](/readme-de.md) - Turkish
+[English](https://github.com/zaaaappp/HyperTweaks) - [German](/readme-de.md) - Turkish
 
 </div>
 
