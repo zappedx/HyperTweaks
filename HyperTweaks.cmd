@@ -92,6 +92,11 @@ echo %ESC%[97m[LOG] Disabled HW Overlay%ESC%[0m
 adb shell settings put global ram_expand_size 0
 echo %ESC%[97m[LOG] Disabled memory extension%ESC%[0m
 
+::set renderer to vulkan
+adb shell setprop debug.hwui.renderer skiavk
+echo %ESC%[97m[LOG] Changed renderer to vulkan%ESC%[0m
+
+
 ::remove bloat
 for %%A in (
     com.miui.miservice
