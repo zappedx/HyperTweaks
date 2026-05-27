@@ -5,7 +5,7 @@
 # HyperTweaks
 HyperOS Optimierungen für nicht gerootete Geräte.
 
-[Englisch](https://github.com/zaaaappp/HyperTweaks) - Deutsch
+[English](https://github.com/zaaaappp/HyperTweaks) - German - [Turkish](/readme-tr.md)
 
 </div>
 
