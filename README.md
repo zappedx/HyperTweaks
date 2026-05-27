@@ -5,7 +5,7 @@
 # HyperTweaks
 HyperOS Tweaks for non-rooted devices.
 
-English - [German]/readme-de.md
+English - [German](/readme-de.md)
 
 </div>
 
