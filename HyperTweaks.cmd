@@ -94,7 +94,7 @@ echo %ESC%[97m[LOG] Disabled memory extension%ESC%[0m
 
 ::set renderer to vulkan
 adb shell setprop debug.hwui.renderer skiavk
-echo %ESC%[97m[LOG] Changed renderer to vulkan%ESC%[0m
+echo %ESC%[97m[LOG] Changed renderer to vulkan (NOT PERSISTANT)%ESC%[0m
 
 
 ::remove bloat
