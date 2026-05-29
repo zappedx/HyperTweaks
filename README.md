@@ -32,4 +32,4 @@ Press on the green button labeled "Code" then on Download ZIP, Download [ADB](ht
 - Optionally raises (or lowers) the GPU / CPU Level for better animations.
 - Disabled HW Overlay and enables tethering hardware acceleration
 
-Unfortunately due to not having root, HyperOS cannot extensively be optimized.
+Unfortunately due to restrictions the most effective optimization is debloating.
