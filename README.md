@@ -5,7 +5,7 @@
 # HyperTweaks
 HyperOS Tweaks for non-rooted devices.
 
-English - [German](/readme-de.md) - [Turkish](/readme-tr.md)
+ADB - Batch - HyperOS
 
 </div>
 
