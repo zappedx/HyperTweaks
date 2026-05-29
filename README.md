@@ -13,6 +13,8 @@ ADB - Batch - HyperOS
 HyperTweaks is an extremely simple ADB reliant batch script
 that optimizes various settings.
 
+If you have root use [KTweak](https://github.com/tytydraco/KTweak), if your also on mediatek use [PerfMTK](https://github.com/JUANIMAN/PerfMTK) with [PerfMTK-Manager](https://github.com/JUANIMAN/PerfMTK-Manager).
+
 > [!CAUTION]
 > - Only tested on HyperOS 3.
 > - Make sure you know how to reset via recovery.
