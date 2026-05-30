@@ -24,7 +24,7 @@ If you have root use [KTweak](https://github.com/tytydraco/KTweak), if your also
 > [!WARNING]
 > Make sure USB Debugging is on, or else it'll error.
 
-Press on the green button labeled "Code" then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to optimize your phone.
+Press on the green button labeled "Code" then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to begin.
 
 # What it does in detail
 - Deletes various xiaomi bloatware confirmed by multiple sources
