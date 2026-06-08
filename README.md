@@ -33,5 +33,5 @@ Press on the green button labeled "Code" then on Download ZIP, Download [ADB](ht
 - Optionally raises (or lowers) the GPU / CPU Level for better animations.
 - Disabled HW Overlay.
 
-Unfortunately due to restrictions the most effective optimization is debloating.
+Unfortunately due to restrictions the most effective optimization is resetting your phone.  
 Resetting your phone will make it extremely smooth, (tested on multiple devices)
