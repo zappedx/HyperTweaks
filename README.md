@@ -28,9 +28,10 @@ Please use [KTweak](https://github.com/tytydraco/KTweak) instead.
 Press on the green button labeled "Code" then on Download ZIP, Download [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) copy the following files: adb.exe, AdbWinApi.dll, AdbWinUsbApi.dll to the downloaded zip, then run the HyperTweaks.cmd file to begin.
 
 # What it does in detail
-- Deletes various xiaomi bloatware confirmed by multiple sources
+- Deletes various xiaomi bloatware.
 - Enables a custom DNS (dns.adguard-dns.com)
 - Optionally raises (or lowers) the GPU / CPU Level for better animations.
-- Disabled HW Overlay and enables tethering hardware acceleration
+- Disabled HW Overlay.
 
 Unfortunately due to restrictions the most effective optimization is debloating.
+Resetting your phone will make it extremely smooth, (tested on multiple devices)
